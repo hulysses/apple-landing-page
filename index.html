@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" class="smooth-scroll">
 
 <head>
     <meta charset="UTF-8">
@@ -21,8 +21,9 @@
             <nav>
                 <ul>
                     <li><a href="#overview">Visão geral</a></li>
-                    <li><a href="#">Especificações</a></li>
-                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#camera">Câmera</a></li>
+                    <li><a href="#specs">Especificações</a></li>
+                    <li><a href="https://www.apple.com/br/shop/buy-iphone/iphone-16" target="_blank">Comprar</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +33,7 @@
         <section class="container">
             <div class="hero">
                 <h1>iPhone 16</h1>
-                <img src="./assets/images/iphone-16-hero.png" alt="iPhone 16">
+                <img src="./assets/images/iphone-16-hero.png" alt="iPhone 16 - Hero Image">
                 <button>
                     <a href="https://www.apple.com/br/shop/buy-iphone/iphone-16" target="_blank">Comprar</a>
                 </button>
@@ -77,10 +78,93 @@
                 </div>
             </div>
         </section>
+
+        <section id="camera" class="camera">
+            <div class="camera-background"></div>
+            <div class="container">
+                <h2>Câmera</h2>
+                <div class="camera-grid">
+                    <div class="camera-item">
+                        <video autoplay loop>
+                            <source src="./assets/videos/iphone-16-camera-video-1.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                        <p>Clique para abrir o app Câmera. Clique de novo para fazer a foto.</p>
+                    </div>
+                    <div class="camera-item">
+                        <video autoplay loop>
+                            <source src="./assets/videos/iphone-16-camera-video-2.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                        <p>Mantenha pressionado para começar a gravar um vídeo.</p>
+                    </div>
+                    <div class="camera-item">
+                        <video autoplay loop>
+                            <source src="./assets/videos/iphone-16-camera-video-3.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                        <p>Pressione de leve duas vezes para exibir outros controles. Escolha. Deslize para ajustar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <section id="specs" class="specs">
+        <div class="container">
+            <h2>Explore os detalhes</h2>
+            <img src="./assets/images/iphone-16-specs.png" alt="iPhone 16 - cores disponíveis">
+            <h3>Especificações</h3>
+            <div class="specs-grid">
+                <div class="specs-item">
+                    <h3>Tela Super Retina XDR<sup>1</sup></h3>
+                    <p>6,7 pol ou 6,1 pol</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Alumínio com traseira em vidro</h3>
+                    <p>Botão de ação</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Chip A18</h3>
+                    <p>GPU de 5 núcleos</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Apple Intelligence</h3>
+                    <p>A IA da Apple</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Controle da câmera</h3>
+                    <p>Acesso rápido às ferramentas da câmera</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Câmera dupla avançada</h3>
+                    <p>Até 4x de zoom óptico</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Dynamic island</h3>
+                    <p>Uma nova forma de interação</p>
+                </div>
+                <div class="specs-item">
+                    <h3>SOS de emergência</h3>
+                    <p>Detecção de acidentes</p>
+                </div>
+                <div class="specs-item">
+                    <h3>Bateria de longa duraçã</h3>
+                    <p>Até 27h de reprodução de vídeo</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="container">
+        <div class="footer-content">
+            <p>
+                Apple Inc. Todos os direitos reservados.
+                <a href="https://www.apple.com/br/legal/internet-services/terms/site.html" target="_blank">
+                    Termos de uso
+                </a>
+            </p>
+        </div>
     </footer>
 </body>
 
